@@ -1,0 +1,33 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+
+
+
+
+.box99{
+	display: inline-block;
+	background: pink;
+	width: 250px;
+	height: 250px;
+	border: 1px solid black;
+	pointer-events: none;
+	transition: transform 2s ease-in-out;
+}
+
+
+.trigger:hover .box99{
+		transform: translate(200px) rotate(720deg) scale(2);
+
+}
+
+.trigger{
+	width: 250px;
+	height: 250px;
+	border: 25px solid grey;
+	background: white;
+}
+
+
